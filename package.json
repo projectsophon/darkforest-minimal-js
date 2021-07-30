@@ -1,0 +1,19 @@
+{
+    "name": "darkforest-minimal-js",
+    "engines": {
+        "node": ">=14 <16"
+    },
+    "devDependencies": {
+        "@darkforest_eth/constants": "6.2.17",
+        "@darkforest_eth/contracts": "6.2.17",
+        "@darkforest_eth/hashing": "6.2.17",
+        "@darkforest_eth/serde": "6.2.17",
+        "@darkforest_eth/snarks": "6.2.17",
+        "@typechain/ethers-v5": "^5.0.0",
+        "ethers": "^5.0.0",
+        "snarkjs": "^0.3.60"
+    },
+    "scripts": {
+        "move": "node index.js"
+    }
+}
